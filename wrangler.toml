@@ -1,0 +1,3 @@
+name = "mann-call-server"
+main = "vapi-call-worker.js"
+compatibility_date = "2026-10-01"
