@@ -29,7 +29,7 @@ Paste the worker URL (e.g. `https://mann-call-server.<you>.workers.dev`) and you
 ## API
 
 - `POST /call` — `{ to, personName, userName, goal, language }` → `{ callId, status }`
-  - `to` must be E.164, e.g. `+916283006585`
+  - `to` must be E.164, e.g. `+91683889282`
   - Header: `x-call-secret: <CALL_SECRET>`
 - `GET /status?id=<callId>` → `{ status, endedReason, summary, durationSeconds }`
 
